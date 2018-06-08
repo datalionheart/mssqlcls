@@ -7,5 +7,6 @@
 | 4 | Domain Controller Server | [Go](./04-create-domian-controller.md) | Unified Management |
 | 5 | Initialization Configure Active Directory | [Go]() | New OU, New User |
 | 6 | iSCSI Server | [Go]() | Provide Network Storage |
+| 7 | CentOS Server | [Go]() | Prepare Linux test environment |
 
 # 
