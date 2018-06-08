@@ -155,4 +155,3 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 > Use sysprep tool to generate master template
 
 ![](./pictures/prepare-windows-vm-master-template-38.png)
-## Generate New VM by Master Template
