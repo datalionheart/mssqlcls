@@ -1,4 +1,5 @@
 # Single Subnet HA Solution
+
 ## Software requirements
 | ID | Item | Limited | Remark |
 | --- | --- | --- | --- |
@@ -13,3 +14,5 @@
 | 3 | iSCIS Server Node | CPU 2Cores; MEM 2GB; Disk Size 64GB | Min 1 Nodes; 2 Disks：1 Quorum 1GB/ 1 MSDTC 4GB |
 ## Architecture
 ![](./pictures/domain-single-subnet-ha.png)
+
+
