@@ -96,18 +96,63 @@ P.S. Recommendations:
 >> Install Telnet Client
 
 > GUI
+> Open -> Add Roles and Features Wizard
 
+![](./pictures/prepare-windows-vm-master-template-27.png)
+> Choose -> Role-based or feature-based installation
+
+![](./pictures/prepare-windows-vm-master-template-28.png)
+> Choose -> Select a server from the server pool
+
+![](./pictures/prepare-windows-vm-master-template-29.png)
+> Select server roles - do not choose
+
+![](./pictures/prepare-windows-vm-master-template-30.png)
+> Choose -> .NET Framework 3.5 Features
+Choose -> Telnet Client
+
+![](./pictures/prepare-windows-vm-master-template-31.png)
+> Sumrry -> Specify am alternate source path -> For .NET Framework 3.5 Features
+
+![](./pictures/prepare-windows-vm-master-template-32.png)
+> Specify Installation Image X:\Sources\Sxs
+
+![](./pictures/prepare-windows-vm-master-template-33.png)
+> Install choosed features
+
+![](./pictures/prepare-windows-vm-master-template-34.png)
 > Command Line
-
+```command
+DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:X:\sources\sxs
+```
 > Powershell
-
+```powershell
+Install-WindowsFeature Net-Framework-Core -Source X:\sources\sxs
+```
 > Set features:
 >> Disable Firewall
 
 > GUI
+> Open -> Windows Firewall with Advanced Security
 
+![](./pictures/prepare-windows-vm-master-template-35.png)
+> Open -> Windows Firewall Profile
+
+![](./pictures/prepare-windows-vm-master-template-36.png)
+> Set Domain Profile/ Private Profile/ Public Profile Firewall state: Off
+
+![](./pictures/prepare-windows-vm-master-template-37.png)
 > Command Line
-
+```command
+netsh advfirewall set allprofiles state off
+```
 > Powershell
+```powershell
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+```
 
+### Generate Master Template
+> Use sysprep tool to generate master template
+
+![](./pictures/prepare-windows-vm-master-template-38.png)
 ## Generate New VM by Master Template
