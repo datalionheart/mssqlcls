@@ -69,11 +69,45 @@ P.S. Recommendations:
 > Skip Windows Activation
 
 ![](./pictures/prepare-windows-vm-master-template-19.png)
+> Choose Windows Server 2016 Standard (Desktop Experience)
 
 ![](./pictures/prepare-windows-vm-master-template-20.png)
+> Accept the license agreement
+
 ![](./pictures/prepare-windows-vm-master-template-21.png)
+> Choose Custom: Install Windows only (Advanced)
+
 ![](./pictures/prepare-windows-vm-master-template-22.png)
+> Choose Disk do not partition
+
 ![](./pictures/prepare-windows-vm-master-template-23.png)
+> Begin install process and waiting for complete
+
 ![](./pictures/prepare-windows-vm-master-template-24.png)
+### Templating Vistual Machine
+> Set administrator password for new vistual machine
+
+![](./pictures/prepare-windows-vm-master-template-25.png)
+> Login new visual machine
+
+![](./pictures/prepare-windows-vm-master-template-26.png)
+> Install features:
+>> Install .NET Framework 3.5<br/>
+>> Install Telnet Client
+
+> GUI
+
+> Command Line
+
+> Powershell
+
+> Set features:
+>> Disable Firewall
+
+> GUI
+
+> Command Line
+
+> Powershell
 
 ## Generate New VM by Master Template
