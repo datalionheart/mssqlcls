@@ -9,7 +9,7 @@ Reference：[Create a New Windows Server](./03-create-domain-controller.md)
 | ID | Item | Parameter | Remark |
 | --- | --- | --- | --- |
 | 1 | Computer Name | SS | |
-| 2 | Network | | |
+| 2 | Network | 192.168.100.253/24 | |
 ### Startup VM
 ### Set System Parameters
 
