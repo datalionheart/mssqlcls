@@ -15,7 +15,31 @@
 | 2 | Network | IP: 192.168.100.253<br/>Masks: 255.255.255.0<br/>Gateway: 192.168.100.254 |
 ## Add Storage Roles
 ### Install Storage Roles
+> Open Server Manager -><br/>
+Open Add Roles and Features Wizard -><br/>
+Select Role-based or feature-based installation
 
+![](./pictures/add-iscsi-role-01.png)
+> Select a server from the server pool
+
+![](./pictures/add-iscsi-role-02.png)
+> Choose some feature:<br/>
+File and Storage Services<br/>
+>> File and iSCSI Services<br/>
+>>> File Server<br/>
+>>> iSCSI Target Server<br/>
+>>> iSCSI Target Storage Provider
+
+![](./pictures/add-iscsi-role-03.png)
+> Do nothing, Next
+
+![](./pictures/add-iscsi-role-04.png)
+> Summary，Do nothing, Install
+
+![](./pictures/add-iscsi-role-05.png)
+> Done. Server Manager -> File and Storage Services -> Show below contents
+
+![](./pictures/add-iscsi-role-06.png)
 ## Configure iSCSI Storage
 | ID | Item | Size | Type |
 | --- | --- | --- | --- |
@@ -23,3 +47,18 @@
 | 2 | MSDTC Disk | 2GB | Share Disk |
 
 Example(Create Quorum Disk, Same step for create other share disk): 
+![](./pictures/create-share-disk-01.png)
+![](./pictures/create-share-disk-02.png)
+![](./pictures/create-share-disk-03.png)
+![](./pictures/create-share-disk-04.png)
+![](./pictures/create-share-disk-05.png)
+![](./pictures/create-share-disk-06.png)
+![](./pictures/create-share-disk-07.png)
+![](./pictures/create-share-disk-08.png)
+![](./pictures/create-share-disk-09.png)
+![](./pictures/create-share-disk-10.png)
+![](./pictures/create-share-disk-11.png)
+![](./pictures/create-share-disk-12.png)
+![](./pictures/create-share-disk-13.png)
+![](./pictures/create-share-disk-14.png)
+![](./pictures/create-share-disk-15.png)
