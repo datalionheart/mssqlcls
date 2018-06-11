@@ -31,10 +31,9 @@ By default login is local account, so you need choose login by other user and in
 ## Create Windows Cluster
 ### Installation Windows Cluster Roles and Features
 
-### Prepare and Test current Cluster Environment
+### (Option)Prepare and Test current Cluster Environment
 ### Create the Cluster
-### Configure Quorum for the Cluster
-### Add Storage Resource to the Cluster
 ### Check and fix Network Resource for the Cluster
-### Change Quorum Type for the Cluster
+### Add Storage Resource to the Cluster
+### Configure Quorum for the Cluster
 ### Create MSDTC Application on the Cluster
