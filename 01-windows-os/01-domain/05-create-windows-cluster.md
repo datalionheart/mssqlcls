@@ -130,5 +130,67 @@ Role-based or feature-based installation to install
 
 ![](./pictures/mount-iscsi-storage-to-file-system-23.png)
 ### Configure Quorum for the Cluster
+> In Failover Cluster Manager, Click More Actions -> Configure Cluster Quorum Settings
 
+![](./pictures/mount-iscsi-storage-to-file-system-24.png)
+> Startup Configure Cluster Quorum Wizard
+
+![](./pictures/mount-iscsi-storage-to-file-system-25.png)
+> Select Advanced quorum configuration
+
+![](./pictures/mount-iscsi-storage-to-file-system-26.png)
+> Select 3 Main Nodes
+
+![](./pictures/mount-iscsi-storage-to-file-system-27.png)
+> Configure a disk witness
+
+![](./pictures/mount-iscsi-storage-to-file-system-28.png)
+> Choose Quorum Share Disk
+
+![](./pictures/mount-iscsi-storage-to-file-system-29.png)
+> Review summary, Then Next
+
+![](./pictures/mount-iscsi-storage-to-file-system-30.png)
+> Complete, Maybe few seconds
+
+![](./pictures/mount-iscsi-storage-to-file-system-31.png)
+> Now, the disk resource assigned to change from Avaliable Storage to Disk Witness in Quorum
+
+![](./pictures/mount-iscsi-storage-to-file-system-32.png)
+> And You can see the 3 Main Nodes state like below
+
+![](./pictures/mount-iscsi-storage-to-file-system-33.png)
 ### Create MSDTC Application on the Cluster
+> In Failover Cluster Manager select Congigure Role
+
+![](./pictures/create-cluster-application-role-01.png)
+> Startup High Availability Wizard select DTC Feature
+
+![](./pictures/create-cluster-application-role-02.png)
+> Input MSDTC Cluster Name, Choose Cluster Network (192.168.0.0/24), give them a IP Address
+
+![](./pictures/create-cluster-application-role-03.png)
+> Choose a cluster share disk
+
+![](./pictures/create-cluster-application-role-04.png)
+> Review summary, Next
+
+![](./pictures/create-cluster-application-role-05.png)
+> Install MSDTC, maybe need few minutes
+
+![](./pictures/create-cluster-application-role-06.png)
+> Complete, Review summary
+
+![](./pictures/create-cluster-application-role-07.png)
+> P.S. Our check the cluster log find some warning information
+
+![](./pictures/create-cluster-application-role-08.png)
+> Login Active Directory Server, Open Active Directory Users and Computers Tool
+
+![](./pictures/create-cluster-application-role-09.png)
+> Click View, select Advanced Features
+
+![](./pictures/create-cluster-application-role-10.png)
+> Into Computers Find Cluster Name's Computer Object, then open Properties -> Object -> Clicked Protect object from accidental deletion
+
+![](./pictures/create-cluster-application-role-11.png)
