@@ -9,10 +9,10 @@
 > Reference：[Create a New Windows Server](./03-create-domain-controller.md)
 ### Startup VM
 ### Set System Parameters
-| ID | Item | Parameter | Remark |
-| --- | --- | --- | --- |
-| 1 | Computer Name | SS | |
-| 2 | Network | 192.168.100.253/24 | |
+| ID | Item | Parameter |
+| --- | --- | --- |
+| 1 | Computer Name | SS |
+| 2 | Network | IP: 192.168.100.253<br/>Masks: 255.255.255.0<br/>Gateway: 192.168.100.254 |
 ## Add Storage Roles
 ### Install Storage Roles
 
@@ -21,4 +21,5 @@
 | --- | --- | --- | --- |
 | 1 | Quorum Disk | 1GB | Share Disk |
 | 2 | MSDTC Disk | 2GB | Share Disk |
+
 Example(Create Quorum Disk, Same step for create other share disk): 
