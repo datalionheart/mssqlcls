@@ -47,18 +47,49 @@ File and Storage Services<br/>
 | 2 | MSDTC Disk | 2GB | Share Disk |
 
 Example(Create Quorum Disk, Same step for create other share disk): 
+> Create frist iSCSI disk
+
 ![](./pictures/create-share-disk-01.png)
+> Open New iSCSI Virtual Disk Wizard<br/>
+Choose custom path for store the virtual disk file
+
 ![](./pictures/create-share-disk-02.png)
+> Give the new virtual disk a name
+
 ![](./pictures/create-share-disk-03.png)
+> Set the new virtual disk size
+
 ![](./pictures/create-share-disk-04.png)
+> We need other server can be access the share disk, so need configre new iSCSI target for discover by network
+
 ![](./pictures/create-share-disk-05.png)
+> Give the new iSCSI target a name
+
 ![](./pictures/create-share-disk-06.png)
+> Input need access the storage server IPs
+
 ![](./pictures/create-share-disk-07.png)
+> Summary, Next
+
 ![](./pictures/create-share-disk-08.png)
+> Do nothing, Next
+
 ![](./pictures/create-share-disk-09.png)
+> Summary, Create
+
 ![](./pictures/create-share-disk-10.png)
+> Waiting for finish
+
 ![](./pictures/create-share-disk-11.png)
+> Continue for New MSDTC Disk and iSCSI Target
+
 ![](./pictures/create-share-disk-12.png)
+> Create iSCSI for each disk group
+
 ![](./pictures/create-share-disk-13.png)
+> Summary, Create
+
 ![](./pictures/create-share-disk-14.png)
+> Completed, Look like the below
+
 ![](./pictures/create-share-disk-15.png)
