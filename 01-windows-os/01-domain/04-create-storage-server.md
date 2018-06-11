@@ -14,5 +14,11 @@
 | 1 | Computer Name | SS | |
 | 2 | Network | 192.168.100.253/24 | |
 ## Add Storage Roles
-
 ### Install Storage Roles
+
+## Configure iSCSI Storage
+| ID | Item | Size | Type |
+| --- | --- | --- | --- |
+| 1 | Quorum Disk | 1GB | Share Disk |
+| 2 | MSDTC Disk | 2GB | Share Disk |
+Example(Create Quorum Disk, Same step for create other share disk): 
