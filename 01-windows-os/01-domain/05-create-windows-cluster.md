@@ -194,3 +194,6 @@ Role-based or feature-based installation to install
 > Into Computers Find Cluster Name's Computer Object, then open Properties -> Object -> Clicked Protect object from accidental deletion
 
 ![](./pictures/create-cluster-application-role-11.png)
+
+## Reference
+[Appendix A: Mount iSCSI Share Storage to Virtual Machine](./appendix-a-mount-iscsi-share-storage.md)

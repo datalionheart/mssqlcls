@@ -93,3 +93,6 @@ Choose custom path for store the virtual disk file
 > Completed, Look like the below
 
 ![](./pictures/create-share-disk-15.png)
+
+## Reference
+[Appendix A: Mount iSCSI Share Storage to Virtual Machine](./appendix-a-mount-iscsi-share-storage.md)
