@@ -16,6 +16,7 @@
 ![](./pictures/domain-single-subnet-ha.png)
 ## Network planning
 P.S. [Configure Virtual Switch and Setting Default Gateway](./appendix-b-configure-virtual-switch.md)
+
 | ID | Node Name | Item | IP | Masks | Gateway | DNS |
 | --- | --- |  --- |  --- |  --- |  --- | --- |
 | 01 | Domain Controller | Domain Network | 192.168.0.253 | 255.255.255.0 | 192.168.0.254 | 127.0.0.1 |
