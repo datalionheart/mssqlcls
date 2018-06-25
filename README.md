@@ -1,9 +1,9 @@
 # Microsoft SQL Server Availability Group Cluster<br/>Step by Step Handbook
 
 ## Update History
-| ID | Chapter | URL | Section | Last Update Date |
-| --- | --- | --- | --- | --- |
-| 1 | 01-windows-os / 01-domain | [Go](https://github.com/datalionheart/mssqlcls/tree/master/01-windows-os/01-domain) | All | 2018/06/25 |
+| ID | Chapter | Section | Status | Last Update Date | URL |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 01-windows-os / 01-domain | All | Done | 2018/06/25 | [Go](https://github.com/datalionheart/mssqlcls/tree/master/01-windows-os/01-domain) |
 
 ## SQL Server Version
 SQL Server 2017 Enterprise Edition<br/>
