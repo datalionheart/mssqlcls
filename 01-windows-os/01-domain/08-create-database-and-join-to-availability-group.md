@@ -29,4 +29,5 @@ ALTER AVAILABILITY GROUP [AGDEMO] ADD DATABASE [DEMODB]
 GO
 ```
 ## Review Availability Group Dashboard
+
 ![](.\pictures\create-ag-05.png)
