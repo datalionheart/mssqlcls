@@ -8,4 +8,4 @@
 | 5 | Create Windows Cluster | [Go](./05-create-windows-cluster.md) | |
 | 6 | Install SQL Server | [Go](./06-install-sql-server.md) | |
 | 7 | Create SQL Server Availability Group | [Go](./07-create-sql-server-availability-group.md) | |
-| 8 | Create Database and join to Availability Group | [Go](./08-create-database-and-join-to-availability-group.md) | |
+| 8 | Create Database and join to Availability Group | [Go](./08-create-database-and-join-to-availability-group.md) | | 9 | Add Listener to Availability Group | [Go](./09-add-listener-to-availability-group.md) |
