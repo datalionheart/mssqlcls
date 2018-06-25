@@ -4,6 +4,7 @@
 | ID | Chapter | Section | Status | Last Update Date | URL |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 01-windows-os / 01-domain | All | Done | 2018/06/25 | [Go](https://github.com/datalionheart/mssqlcls/tree/master/01-windows-os/01-domain) |
+| 2 | 02-linux-os | 00-overview | Processing | 2018/06/25 | [Go](https://github.com/datalionheart/mssqlcls/tree/master/02-linux-os) |
 
 ## SQL Server Version
 SQL Server 2017 Enterprise Edition<br/>
