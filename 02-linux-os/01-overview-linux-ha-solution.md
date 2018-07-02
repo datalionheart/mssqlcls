@@ -6,7 +6,7 @@
 | 1 | CentOS 7 1806 DVD |  | Required |
 | 2 | CentOS 7 1806 Everything DVD |  | Required |
 | 3 | SQL Server 2017 Enterprise Edition |  | Required |
-| 4 | mRemoteNG | Option | SSH Remote |
+| 4 | mRemoteNG | Option | SSH Remote Terminal |
 | 5 | WinSCP | Option | Upload/Download Files |
 
 >P.S.<br/>
