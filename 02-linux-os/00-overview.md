@@ -2,7 +2,8 @@
 | ID | Item Name | Go | Remark |
 | --- | --- | --- | --- |
 | 1 | Overview Linux HA Solution | [Go]() | |
-| 2 | Prepare Linux Server Hyper-V VM | [Go]() | CentOS |
+| 2 | Prepare Linux Server Hyper-V VM | [Go]() | CentOS 7 |
+| 3 | Create YUM Repository | [Go]() | Local Yum Repository - CentOS 7 |
 | 3 | Install SQL Server | [Go]() | |
 | 4 | Configure SQL Server and Linux | [Go]() | |
 | 5 | Install Pacemaker | [Go]() | |
