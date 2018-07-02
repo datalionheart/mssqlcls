@@ -18,7 +18,7 @@
 | 1 | SQL Server Node | CPU 8Cores; MEM 2GB; Disk Size 64GB | Max 9 Nodes |
 | 2 | Control Node  | CPU 2Cores; MEM 2GB; Disk Size 64GB | SQL Client Tools<br/> NTP Service<br/> Local Yum Repository |
 ## Architecture Picture
-
+![](./pictures/linux-ha-architecture-01.png)
 ## Network Planning
 | ID | Node Name | Item | IP | Masks | Gateway |
 | --- | --- |  --- |  --- |  --- |  --- |
