@@ -303,6 +303,12 @@ c7-remote                                                                       
 (3/3): c7-remote/other_db                                                                                                                     | 2.5 MB  00:00:00
 Metadata Cache Created
 ```
+> P.S. Must be remove CentOS-Base.repo file
+```bash
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.bak
+or
+rm -rf /etc/yum.repos.d/CentOS-Base.repo
+```
 
 ## Done
 Now we can use yum install centos packages by local yum repository
