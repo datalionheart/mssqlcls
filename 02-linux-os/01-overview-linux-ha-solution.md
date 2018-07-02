@@ -11,7 +11,7 @@
 
 >P.S.<br/>
 * CentOS 7 [Download](https://www.centos.org)<br/>
-* SQL Server 2017 Enterprise Edition [Download]()<br/>
+* SQL Server 2017 Enterprise Edition [Download](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017)<br/>
 ## Node and Hardware requirements
 | ID | Item | Limited | Remark |
 | --- | --- | --- | --- |
