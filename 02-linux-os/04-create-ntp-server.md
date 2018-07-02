@@ -30,8 +30,10 @@ Metadata Cache Created
 Click Windows Key + R, Open RUN, input word 'regedit'
 ![](./pictures/windows-ntp-server-01.png)
 2. Step 2 Configure Parameters
+```regedit
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Config -> AnnounceFlags -> 5
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer -> Enabled -> 1
+```
 3. Restart W32Time Service
 ![](./pictures/windows-ntp-server-02.png)
 4. Add Firewall Role
@@ -157,7 +159,7 @@ restrict 192.168.0.0 mask 255.255.255.0 nomodify
 # Use public servers from the pool.ntp.org project.
 # Please consider joining the pool (http://www.pool.ntp.org/join.html).
 server 192.168.0.254
-server 127.127.1.0      # If 192.168.0.254 no access, Use Local Server Time Source
+server 127.127.1.0      # If 192.168.0.254 no access, Then use Local Server Time Source
 fudge 127.127.1.0  stratum 10
 
 #server 0.centos.pool.ntp.org iburst
@@ -267,7 +269,7 @@ offset 0.000071
  2 Jul 18:02:22 ntpdate[1206]: adjust time server 192.168.0.30 offset 0.000071 sec
 ```
 ## Configure Linux Cluster NTP Client
-Add Auto Job to Each Node
+Add a Job to Each Node
 ```bash
 crontab -e
 00 01 * * * root /usr/sbin/ntpdate 192.168.0.30; /sbin/hwclock -w
