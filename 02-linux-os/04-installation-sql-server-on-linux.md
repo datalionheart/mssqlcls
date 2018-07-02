@@ -1,0 +1,1 @@
+# Installation SQL Server on Linux
