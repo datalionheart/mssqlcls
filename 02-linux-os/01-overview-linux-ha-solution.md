@@ -34,3 +34,4 @@
 | 10 | SQL Server Node 9 | Cluster Network | 192.168.0.29 | 255.255.255.0 | 192.168.0.254 |
 | 11 | NTP Server | Cluster Network | 192.168.0.30 | 255.255.255.0 | 192.168.0.254 |
 | 12 | Yum Repository Server | Cluster Network | 192.168.0.31 | 255.255.255.0 | 192.168.0.254 |
+| 13 | Pacemaker Heartbeat IP | Heartbeat IP | 192.168.0.32 | 255.255.255.0 | 192.168.0.254 |
