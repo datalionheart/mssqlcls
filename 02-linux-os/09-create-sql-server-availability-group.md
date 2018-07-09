@@ -146,7 +146,12 @@ CLUSTER_TYPE = EXTERNAL,
 -- Linux HA is Pacemaker-Based is EXTERNAL
 -- Windows HA is WSFC-Based is WSFC
 -- Linux / Windows NON-HA is NONE
-REQUIRED_SYNCHRONIZED_SECONDARIES_TO_COMMIT = 0)
+REQUIRED_SYNCHRONIZED_SECONDARIES_TO_COMMIT = 2)
+-- Reference:[Always On Availability Groups on Linux](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-availability-group-overview?view=sql-server-linux-2017)
+-- ALTER AVAILABILITY GROUP [AGDEMO] SET (REQUIRED_SYNCHRONIZED_SECONDARIES_TO_COMMIT = 2);
+-- 0 – No automatic failover is possible since no secondary replica is required to be synchronized. The primary database is available at all times.
+-- 1 – One secondary replica must be in a synchronized state with the primary; automatic failover is possible. The primary database is unavailable until a secondary synchronous replica is available.
+-- 2 – Both secondary replicas in a three or more node AG configuration must be synchronized with the primary; automatic failover is possible.[Current test scenario has 3 synchronized secondary replicas include 1 primary replicas and 6 asynchronized secondary replicas]
 FOR
 	-- DATABASE [DEMODB] 
     -- create availability group frist, then create database and add to the availability group
