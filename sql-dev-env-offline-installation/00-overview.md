@@ -14,10 +14,20 @@
 ```command
 vs_enterprise.exe --layout X:\VS2017ENT\Packages --lang en-US,zh-CN  --add Microsoft.VisualStudio.Branding.Enterprise --add Microsoft.VisualStudio.MinShell.Resources
 ```
+> P.S. First time download or offline packages update with the same script
+
 ### SQL Server Data Tools
 > File Name: SSDT-Setup-ENU.exe
 ```command
 SSDT-Setup-ENU.exe /layout X:\SSDT2017\Packages
+```
+> P.S. First time download or offline packages update with the same script
+
+## Create Share Folder
+```powershell
+// Powershell Run as Administrator
+New-SmbShare -Name "VS2017ENT" -Path "X:\VS2017ENT\Packages" -ReadAccess "Everyone"
+New-SmbShare -Name "SSDT2017" -Path "X:\SSDT2017\Packages" -ReadAccess "Everyone"
 ```
 
 ## Installation order
