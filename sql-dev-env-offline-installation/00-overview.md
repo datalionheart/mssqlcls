@@ -86,6 +86,10 @@ Wating for download and install complete
 ![](./pictures/VS2017OfflineInstall11.png)
 Visual Studio 2017 offline install completed
 ![](./pictures/VS2017OfflineInstall12.png)
+Initial Visual Studio 2017 and Close
+![](./pictures/VSInit01.png)
+![](./pictures/VSInit02.png)
+![](./pictures/VSInit03.png)
 
 3. <B>Install Data-Tier Application Framework (DacFx)</B>
 ![](./pictures/InstallDacFx01.png)
